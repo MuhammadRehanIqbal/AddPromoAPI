@@ -1,0 +1,30 @@
+C:\Source\BaselineONE\Application\bin\Debug\net8.0\Application.deps.json
+C:\Source\BaselineONE\Application\bin\Debug\net8.0\Application.dll
+C:\Source\BaselineONE\Application\bin\Debug\net8.0\Application.pdb
+C:\Source\BaselineONE\Application\bin\Debug\net8.0\Core.dll
+C:\Source\BaselineONE\Application\bin\Debug\net8.0\Core.pdb
+C:\Source\BaselineONE\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Source\BaselineONE\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\BaselineONE\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Source\BaselineONE\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Source\BaselineONE\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Source\BaselineONE\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Source\BaselineONE\Application\obj\Debug\net8.0\Application.dll
+C:\Source\BaselineONE\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Source\BaselineONE\Application\obj\Debug\net8.0\Application.pdb
+C:\Source\BaselineONE\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Source\AdProm Manager\API\Application\bin\Debug\net8.0\Application.deps.json
+C:\Source\AdProm Manager\API\Application\bin\Debug\net8.0\Application.dll
+C:\Source\AdProm Manager\API\Application\bin\Debug\net8.0\Application.pdb
+C:\Source\AdProm Manager\API\Application\bin\Debug\net8.0\Core.dll
+C:\Source\AdProm Manager\API\Application\bin\Debug\net8.0\Core.pdb
+C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\Application.dll
+C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\Application.pdb
+C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\ref\Application.dll
