@@ -18,6 +18,7 @@ C:\Source\AdProm Manager\API\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorCo
 C:\Source\AdProm Manager\API\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
 C:\Source\AdProm Manager\API\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
 C:\Source\AdProm Manager\API\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Source\AdProm Manager\API\Core\obj\Debug\net8.0\Core.sourcelink.json
 C:\Source\AdProm Manager\API\Core\obj\Debug\net8.0\Core.dll
 C:\Source\AdProm Manager\API\Core\obj\Debug\net8.0\refint\Core.dll
 C:\Source\AdProm Manager\API\Core\obj\Debug\net8.0\Core.pdb

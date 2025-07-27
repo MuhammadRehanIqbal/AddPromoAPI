@@ -10,7 +10,7 @@ using static WebApi.Controllers.ApiBaseController;
 namespace WebApi.Controllers.Users
 {
 
-    [Route("users")]
+    [Route("api/users")]
     [ApiController]
     [Authorize] // Require a valid token
     public class UsersController : ApiController

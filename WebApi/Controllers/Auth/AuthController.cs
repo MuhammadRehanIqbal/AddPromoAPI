@@ -6,7 +6,7 @@ using static WebApi.Controllers.ApiBaseController;
 
 namespace WebApi.Controllers.Auth
 {
-    [Route("auth")]
+    [Route("api/auth")]
     [ApiController]
     public class AuthController : ApiController
     { 

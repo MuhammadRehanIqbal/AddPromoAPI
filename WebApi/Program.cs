@@ -1,4 +1,4 @@
-using Application;
+﻿using Application;
 using Infrastructure;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -12,13 +12,24 @@ var configuration = builder.Configuration; // Access the app configuration
 // Add services to the container
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAngularClient",
-        policy => policy
-            .WithOrigins("http://localhost:4200", "http://localhost:60729") // frontend origin
+    //options.AddPolicy("AllowAngularClient",
+    //    policy => policy
+    //        .WithOrigins("http://localhost:4200", "http://localhost:60729",
+    //        "https://super-starlight-7d6b2e.netlify.app",
+    //        "https://1b11e1e90d25.ngrok-free.app"
+    //        ) // frontend origin
+    //        .AllowAnyHeader()
+    //        .AllowAnyMethod()
+    //        .AllowCredentials()
+    //    );
+    options.AddPolicy("AllowNetlify", builder =>
+    {
+        builder
+            .WithOrigins("https://chimerical-sable-936f0f.netlify.app", "http://localhost:4200") // 👈 exact Netlify domain
             .AllowAnyHeader()
             .AllowAnyMethod()
-            .AllowCredentials()
-        );
+            .AllowCredentials(); // if using cookies or login headers
+    });
 });
 
 // Application & Infrastructure layer dependencies
@@ -59,19 +70,29 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();  // Enable Swagger UI in Development
+//    app.UseSwaggerUI();
+//}
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();  // Enable Swagger UI in Development
-    app.UseSwaggerUI();
-}
-
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "AdProm API V1");
+    c.RoutePrefix = "swagger"; // ensures it's served at /swagger/
+});
 app.UseHttpsRedirection();
 
-app.UseCors("AllowAngularClient");
+//app.UseCors("AllowAngularClient");
+app.UseCors("AllowNetlify");
 
 app.UseAuthentication();  // Must come before UseAuthorization
 app.UseAuthorization();
 
 app.MapControllers();
-
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/swagger/index.html");
+    return Task.CompletedTask;
+});
 app.Run();

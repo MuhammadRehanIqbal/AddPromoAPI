@@ -23,6 +23,7 @@ C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\Application.GeneratedM
 C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
 C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
 C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\Application.sourcelink.json
 C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
 C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\Application.dll
 C:\Source\AdProm Manager\API\Application\obj\Debug\net8.0\refint\Application.dll
